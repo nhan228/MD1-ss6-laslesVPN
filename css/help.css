@@ -1,0 +1,222 @@
+.help__title{
+    width: 447.805px;
+    margin: auto;
+}
+.help__title p{
+    margin-top: 150px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.help__desc{
+    margin: auto;
+    width: 555px;
+}
+.help__desc p{
+    margin-top: 20px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*!**/
+/*Carousel*/
+/**!*/
+/*!* Dots*!*/
+/*.help .slick-dots {*/
+/*    list-style-type: none;*/
+/*    display: flex!important;*/
+/*    align-items: center;*/
+/*    gap: 0 15px;*/
+/*    transform: translateY(50%);*/
+/*}*/
+/*.help .slick-dots button {*/
+/*    font-size: 0;*/
+/*    background-color: #dde0e4;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    border-radius: 100rem;*/
+/*    transition: all 0.2s linear;*/
+/*}*/
+/*.help .slick-dots .slick-active button {*/
+/*    background-color: #f53838;*/
+/*    width: 45px;*/
+/*}*/
+/*.fa-arrow-right,*/
+/*.fa-arrow-left*/
+/*{*/
+/*    color:#f53838;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    flex-shrink: 0;*/
+/*    margin: 15px;*/
+/*    border-radius: 60px;*/
+/*    border: 2px solid red;*/
+/*}*/
+
+
+/*.help__item .profile img{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    flex-shrink: 0;*/
+/*    border-radius: 50px;*/
+/*}*/
+
+/*.profile {*/
+/*    display: flex;*/
+/*}*/
+
+/*.profile__left{*/
+/*    flex:1;*/
+/*    text-align: center;*/
+/*    justify-content: flex-start;*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.country{*/
+/*    color: #4F5665;*/
+/*    text-align: center;*/
+/*    font-family: Rubik;*/
+/*    font-size: 14px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 30px;*/
+/*}*/
+
+/*svg{*/
+/*    display: inline-block;*/
+/*}*/
+/*.profile__right{*/
+/*    display: flex;*/
+/*}*/
+
+
+
+.section-six__page1 {
+    width: 400px !important;
+    height: 230px !important;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+
+.section-six__page1 .section-six__page1in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-six__page1 p {
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    background-color: #DDE0E4;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+}
+
+
+.slick-dots .slick-active button {
+    width: 45px;
+    height: 15px;
+    background-color: #F53838;
+}
+
+.slick-prev.pull-left, .slick-next.pull-right {
+    border: 1px solid #F53838;
+    width: 60px;
+    height: 60px;
+    border-radius: 100rem;
+    color: #F53838;
+}
+
+.slick-prev.pull-left i, .slick-next.pull-right i {
+    color: #F53838;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.slick-next.pull-right img {
+    transform: rotate(180deg);
+}
+
+.section-six__page slick-initialized slick-slider slick-dotted {
+    position: relative;
+}
+
+.slick-next.pull-right {
+    position: absolute;
+    right: 80px;
+    bottom: -80px;
+}
+
+.slick-prev.pull-left {
+    position: absolute;
+    right: 150px;
+    bottom: -80px;
+}
+
+.slick-dots {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    position: absolute;
+    bottom: -60px;
+    left: 30px;
+}
+
+/*section-seven*/
+.section-seven {
+    display: flex;
+    margin: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 1140px;
+    height: 233px;
+    box-shadow: 1px 15px 30px 1px #0d102557;
+    transform: translate(0, 280px);
+}
+
+.section-seven .section-seven__left span {
+    width: 371px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.section-seven .section-seven__left p {
+    color: #4F5665;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.section-seven .section-seven__right button {
+    border: 1px solid #F53838;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    background-color: #F53838;
+    box-shadow: 1px 15px 30px 1px #f538385c;
+}

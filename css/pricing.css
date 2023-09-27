@@ -1,0 +1,207 @@
+.pricing {
+    margin-top: 211.46px;
+}
+
+.pricing__title {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.pricing__desc {
+    margin: 20px auto;
+    max-width: 555px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pack__free,
+.pack__standard,
+.pack__premium
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 330px;
+    height: 760px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pack__premium{
+    border-radius: 10px;
+    background: #FFF;
+    width: 330px;
+    height: 760px;
+    flex-shrink: 0;
+}
+
+.pack{
+    display: flex;
+}
+.pack__free > img,
+.pack__standard > img,
+.pack__premium > img
+{
+    width: 144.904px;
+    height: 165.374px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+
+}
+
+.pack__free-title,
+.pack__standard-title,
+.pack__premium-title
+{
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.pack__free ul,
+.pack__standard ul,
+.pack__premium ul
+{
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.pack__free li,
+.pack__standard li,
+.pack__premium li
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pack__free svg,
+.pack__standard svg,
+.pack__premium svg
+{
+    margin-right: 10px;
+}
+
+.pack__free span,
+.pack__standard span,
+.pack__premium span
+{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pack__free-price,
+.pack__standard-price,
+.pack__premium-price
+
+{
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: auto;
+    display: inline-block;
+}
+
+.pack__free-button,
+.pack__standard-button,
+.pack__premium-button
+{
+    color: #F53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 177.876px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+}
+
+.month{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 25px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.pack__free-button,
+.pack__standard-button,
+.pack__premium-button
+{
+    position: relative;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pack__free:hover,
+.pack__standard:hover,
+.pack__premium:hover
+{
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+}
+.pack__free-button:hover,
+.pack__standard-button:hover,
+.pack__premium-button:hover
+{
+    background-color: #F53838;
+    color: #FFF;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+}
+
+.pack__free-button:hover:after,
+.pack__standard-button:hover:after,
+.pack__premium-button:hover:after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 90%;
+    height: 100%;
+    transform: translate(-50%, 50%);
+    background: rgba(245, 56, 56, 0.7);
+    filter: blur(60px);
+    border-radius: inherit;
+}
+
+

@@ -1,0 +1,75 @@
+.testimonials__title{
+    width: 383.406px;
+    margin: auto;
+}
+.testimonials__title p{
+    margin-top: 150px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.testimonials__desc{
+    margin: auto;
+    width: 555px;
+}
+.testimonials__desc p{
+    margin-top: 20px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+.testimonials__desc span{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.testimonials__map{
+    margin: auto;
+    width: 1060px;
+}
+.testimonials__map img{
+    height: 537.771px;
+    flex-shrink: 0;
+    margin-top: 155.81px;
+}
+
+
+.testimonials__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:60px;
+}
+
+.testimonials__social:hover{
+    cursor: pointer;
+}
+.testimonials__social-netflix,
+.testimonials__social-reddit,
+.testimonials__social-amazon,
+.testimonials__social-discord,
+.testimonials__social-spotify{
+    transition: all 0.2s linear;
+}
+
+.testimonials__social-netflix:hover,
+.testimonials__social-reddit:hover,
+.testimonials__social-amazon:hover,
+.testimonials__social-discord:hover,
+.testimonials__social-spotify:hover
+{
+    transform: scale(1.5);
+}
+
